@@ -1,0 +1,46 @@
+﻿.showError{
+    top: 0px;
+    opacity: 1;
+}
+
+.hideError {
+    top: 50px;
+    opacity: 0;
+}
+
+#timezone-error {
+    transition: 0.5s;
+}
+
+#app{
+    overflow:hidden;
+}
+
+.nav-link{
+    cursor: pointer;
+}
+
+.get-time{
+    text-align:right;
+}
+
+.align-right{
+    text-align: right;
+}
+
+@media (max-width: 992px) {
+    .get-time {
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+
+    .pagination {
+        justify-content: center !important;
+    }
+}
+
+@media(max-width: 768px){
+    .align-right{
+        text-align: left !important;
+    }
+}
